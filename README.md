@@ -1,6 +1,6 @@
 # Mental Health Text Classification using Deep Learning
 
-Di project ini, kita membandingkan dua arsitektur utama: **LSTM** (sebagai *baseline*) dan **MentalBERT** (model transformer). Tujuannya adalah untuk melihat model mana yang lebih akurat dalam mendeteksi 7 spektrum kondisi psikologis dari data teks media sosial yang informal dan penuh *noise*.
+Di project ini, kita membandingkan dua arsitektur utama: **LSTM** (sebagai *baseline*) dan **MentalBERT** (model transformer). Tujuannya adalah untuk melihat model mana yang lebih akurat dalam mendeteksi 7 kondisi psikologis dari data teks media sosial.
 
 Selain komparasi model, project ini juga berfokus pada cara terbaik menangani dataset yang sangat tidak seimbang (*extreme class imbalance*) tanpa harus membuang data.
 
