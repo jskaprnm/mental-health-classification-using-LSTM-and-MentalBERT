@@ -19,3 +19,8 @@ Beberapa teknik utama yang diimplementasikan di project ini:
 2. **No Data Loss Imbalance Handling:** Alih-alih melakukan *undersampling* yang membuang banyak data, kita menggunakan **Smoothed Class Weights** (pembobotan yang dihaluskan dengan akar kuadrat) agar model tetap stabil.
 3. **Custom Focal Loss:** Kita memakai fungsi *Focal Loss* modifikasi di TensorFlow supaya model lebih fokus belajar dari *hard examples* (kalimat yang sulit ditebak) dan mengabaikan kalimat mayoritas yang gampang ditebak.
 4. **MentalBERT Fine-Tuning:** Memanfaatkan pretrained model dari HuggingFace yang memang sudah dilatih khusus di forum-forum kesehatan mental (Reddit).
+
+## Download Weights Model 2 (MentalBERT)
+Karena file tf_model.h5 milik MentalBERT ini ukurannya lumayan besar (di atas 100 MB) file tf_model.h5 dapat diakses di Google Drive. 
+
+- **Link Google Drive**: https://drive.google.com/drive/folders/1NjqP6rpddkiJJteU8oFGT67JeBnspFw7?usp=share_link
